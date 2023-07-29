@@ -5,6 +5,7 @@
 namespace Gome\Order;
 
 use Google\Protobuf\Internal\GPBType;
+use Google\Protobuf\Internal\Message;
 use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
@@ -13,7 +14,7 @@ use Google\Protobuf\Internal\GPBUtil;
  *
  * Generated from protobuf message <code>gome.order.OrderResponse</code>
  */
-class OrderResponse extends \Google\Protobuf\Internal\Message
+class OrderResponse extends Message
 {
     /**
      * Generated from protobuf field <code>int32 code = 1;</code>

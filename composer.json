@@ -1,0 +1,33 @@
+{
+    "name": "toklove/php-gome",
+    "description": "Calling Match Engine Of Go Service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TokLove",
+            "email": "superz2586@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "pimple/pimple": "^3.0",
+        "google/protobuf": "^3.14",
+        "grpc/grpc": "^1.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "src/GPBMetadata/",
+            "Gome\\": "src/"
+        },
+        "files": [
+            "src/Kernel/Support/Helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gome\\Tests\\": "tests/"
+        }
+    }
+}
